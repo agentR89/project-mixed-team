@@ -13,7 +13,7 @@
 @import url('./testimonials.css');
 @import url('./footer.css');
 
-body{
+:root{
   font-family: 'Manrope', sans-serif;
   
 }
