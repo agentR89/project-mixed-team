@@ -14,7 +14,13 @@
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 40px;
+}
 
+@media screen and (min-width:768px) {
+    .our-collection-title {
+        font-size: 44px;
+        line-height: 1.5;
+    }
 }
 
 .our-collection-paragraph {
@@ -23,6 +29,13 @@
     align-items: center;
 }
 
+@media screen and (min-width:768px) {
+    .our-collection-paragraph {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
 .our-collection-photo {
     width: 335px;
     position: relative;
