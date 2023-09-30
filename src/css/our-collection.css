@@ -2,8 +2,20 @@
 .our-collection-box {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: black;
+    background-color: black; 
+    background-image: url("../img/OurCollection/elements-mobile.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+ @media screen and (min-resolution: 192dpi), 
+screen and (min-resolution: 2dppx), 
+screen and (min-device-pixel-raito: 2) {
+    .our-collection-box {
+        background-image: url(../img/OurCollection/elements-mobile@2x.png);
+ 
+    }
+} 
 
 .our-collection-title {
     font-size: 32px;
