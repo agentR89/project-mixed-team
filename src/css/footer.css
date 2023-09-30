@@ -1,21 +1,12 @@
-.container {
-  max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+.section-footer {
+  background-image: 
+  url(./img/footer/footer-ornament.png);
 }
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
+.footer-ul {
 }
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+.footer-li {
+}
+.footer-p {
+}
+.footer-p-span {
 }
