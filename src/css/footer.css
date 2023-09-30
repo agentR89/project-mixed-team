@@ -33,7 +33,7 @@
 .footer-ornament{
   width: 451.393px;
 height: 200px; 
-background-image: url('./img/footer/footer-ornament.png');
+background-image: url('../img/footer/footer-ornament.png');
 }
 @media screen and (min-whidth: 320px) {
   .footer-p {
