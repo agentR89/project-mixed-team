@@ -1,7 +1,14 @@
+:root{
+--black: #1C2225;
+--yellow: #ECD979;
+--white: #FCF9F9;
+}
+
 body{
     font-family: 'Manrope', sans-serif;
-    background: #1C2225;
+    background: var(--black);
   }
+
 .container {
   max-width: 320px;
   padding-left: 20px;
@@ -9,6 +16,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (min-width: 320px) {
     .container {
       max-width: 375px;
