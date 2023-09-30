@@ -1,3 +1,17 @@
+.section-footer {
+  background-image: 
+  url(./img/footer/footer-ornament.png);
+}
+.container {
+}
+.footer-ul {
+}
+.footer-li {
+}
+.footer-p {
+}
+.footer-p-span {
+}
 .container {
   max-width: 320px;
   padding-left: 16px;
