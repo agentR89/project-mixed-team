@@ -91,6 +91,16 @@
     text-transform: uppercase;
 
 }
+
+.our-collection-elemets {
+    width: 199px;
+    height: 177px;
+    position: absolute;
+    z-index: 111;
+    left: -127px;
+    top: 241px
+}
+
 .container {
     max-width: 320px;
     padding-left: 16px;
