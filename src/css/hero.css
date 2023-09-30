@@ -1,3 +1,36 @@
+.hero {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.hero-title {
+  // Reviving the traditional 
+ color: #FCF9F9;
+ font-size: 64px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 74px;
+ word-wrap: break-word
+// Ukrainian 
+ color: #ECD979;
+ font-size: 64px;
+ font-weight: 400;
+ line-height: 74px;
+ word-wrap: break-word
+---
+// artistry in every stitch.
+ color: #FCF9F9;
+ font-size: 64px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 74px;
+ word-wrap: break-word
+}
+
+
+
+
 .container {
   max-width: 320px;
   padding-left: 16px;
