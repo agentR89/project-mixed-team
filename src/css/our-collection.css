@@ -6,12 +6,13 @@
     background-image: url("../img/OurCollection/elements-mobile.png"); 
     background-repeat: no-repeat;
     background-position: left;
-    background-position-y: 195px; 
+    background-position-y: 186px; 
 }
 
 @media screen and (min-width:768px) {
     .our-collection-box {
         background-image: url("../img/OurCollection/elements-tablet.png");
+        
     }
 }
 
@@ -47,8 +48,6 @@
     }
 }
 
-
-
 .our-collection-photo {
     width: 280px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
@@ -65,8 +64,7 @@
 @media screen and (min-width:768px) {
     .our-collection-photo {
         width: 342px;
-        margin-bottom: 40px;
-        
+        margin-bottom: 40px;       
     }
 }
 
