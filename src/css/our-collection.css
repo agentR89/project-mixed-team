@@ -55,7 +55,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (min-width:321px) and (max-width:375px) {
+@media screen and (min-width:375px) and (max-width:767px) {
     .our-collection-photo {
         width: 335px;        
     }
