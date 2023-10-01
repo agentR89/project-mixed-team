@@ -199,6 +199,15 @@ header{
     height: 100%;
     background-color: #ECD979;
     z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .mobile-menu-container{
@@ -208,12 +217,14 @@ header{
     justify-content: space-between;
     width: 320px;
     align-items: flex-end;
+    height: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 375px){
     .mobile-menu-container{   
-    margin-left: auto;
-    margin-right: auto;
+
     }
 }
 
@@ -221,6 +232,7 @@ header{
 @media screen and (min-width: 768px){
     .mobile-menu-container{
         width: 704px;
+        margin: o auto;
     }
 }
 
@@ -297,11 +309,50 @@ header{
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding-left: 20px;
+    padding-right: 20px;
     gap: 20px;
 }
-@media screen and (min-width: 768px){.mobile-nav-list{padding-left: 32px;gap: 25px;}}
+@media screen and (min-width: 768px){.mobile-nav-list{padding-right: 32px;gap: 25px;}}
+
+.mobile-nav-link{
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.571%;
+    text-transform: uppercase;
+}
 
 .img-container{
-    background-image: ;
+    width: 100%;
+    height: 251px;
+    background-repeat: no-repeat;
+    background-image: url('../img/header-images/elements-min.png');
+    background-size: 100%;
 }
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
+    .img-container{
+        background-image: url('../img/header-images/elements@2x-min.png')   
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .img-container {
+      background-image:url('../img/header-images/elements-tab.png');
+      height: 380px;
+    }
+  }
+  
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+        .img-container {
+      background-image: url('../img/header-images/elements-tab-@2x.png');
+    }
+  }
+
+
