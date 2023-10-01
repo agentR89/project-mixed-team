@@ -31,9 +31,14 @@
   color: var(--yellow);
 }
 .footer-ornament{
-  width: 451.393px;
+  position: relative;
+
+  max-width: 451.393px;
 height: 200px; 
 background-image: url('../img/footer/footer-ornament.png');
+background-repeat: no-repeat;
+background-position: bottom center;
+align-items: center;
 }
 @media screen and (min-whidth: 320px) {
   .footer-p {
