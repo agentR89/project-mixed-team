@@ -88,15 +88,17 @@ line-height: 30px; /* 150% */
 }
 
 @media screen and (min-width: 768px) {
-.two,
-.three {
+.two {
   display: list-item;
 }
 }
 
 @media screen and (min-width: 1280px) {
+  .two,
+  .three {
+    display: list-item;
 
-
+}
 }
 
 
