@@ -24,7 +24,7 @@ margin-bottom: 40px;
 .testimonials-list {
 display: flex;
 justify-content: center;
-flex-direction: column;
+flex-direction: row;
 align-items: flex-start;
 gap: 20px;
 }
