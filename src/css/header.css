@@ -145,9 +145,7 @@ header{
     box-sizing: content-box;
 }
 
-.contacts-link:hover, .contacts-link:focus{
-    border: 1px solid #ECD979;
-}
+
 
 .menu-buttons-right{
     display: flex;
@@ -191,6 +189,8 @@ header{
 
 /* MOBILE MENU */
 
+
+
 .mobile-menu{
     position: fixed;
     left: 0;
@@ -201,7 +201,89 @@ header{
     z-index: 100;
 }
 
-.menu-button-icon{
-    
+.mobile-menu-container{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-@media screen and (min-width: 768px){.menu-button-icon{}}
+
+@media screen and (min-width: 375px){
+    .mobile-menu-container{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .mobile-menu-container{
+        width: 704px;
+    }
+}
+
+
+
+
+
+.tel-and-close-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .tel-and-close-btn{
+        padding: 20px 32px 0;
+    }
+}
+
+
+
+.contacts-menu{
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+    width: 158px;
+}
+
+.contacts-mobile-link{
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16667;
+    text-transform: uppercase;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: content-box; */
+    white-space: nowrap;
+}
+
+.close-mobile-menu-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+
+.menu-button-icon{
+    stroke: #1C2225 ;
+    width: 36px;
+    height: 36px;
+}
+@media screen and (min-width: 768px){
+    .menu-button-icon{
+        width: 44px;
+        height: 44px;
+    }
+}
