@@ -92,6 +92,7 @@ text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
 .two {
   display: list-item;
 }
@@ -106,15 +107,18 @@ text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
-  .two,
-  .three {
-    display: list-item;
-}
-
 .testimonials-part {
   padding-top: 150px;
   padding-bottom: 150px;
 }
+
+.two,
+.three {
+  display: list-item;
 }
 
+.testimonials-list {
+  column-gap: 26px;
+}
 
+}
