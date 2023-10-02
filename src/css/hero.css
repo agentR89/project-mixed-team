@@ -1,35 +1,34 @@
-.hero {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: black;
+.section-hero {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 375px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hero-title {
-  // Reviving the traditional 
- color: #FCF9F9;
- font-size: 64px;
- font-family: Manrope;
- font-weight: 400;
- line-height: 74px;
- word-wrap: break-word
-// Ukrainian 
- color: #ECD979;
- font-size: 64px;
- font-weight: 400;
- line-height: 74px;
- word-wrap: break-word
----
-// artistry in every stitch.
- color: #FCF9F9;
- font-size: 64px;
- font-family: Manrope;
- font-weight: 400;
- line-height: 74px;
- word-wrap: break-word
+.title1 {
+  color: #FCF9F9;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  
 }
 
-
-
+.titlell {
+  color: #ECD979;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
 
 .container {
   max-width: 320px;
