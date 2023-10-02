@@ -1,0 +1,165 @@
+
+.about-us {
+  overflow: hidden;
+}
+
+.image-wrapper {
+  /* padding: 16px; */
+  /* overflow: hidden; */
+}
+.section-about-us-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+}
+
+.section-about-us-title,
+.section-about-us-text {
+  font-family: Manrope;
+}
+
+.text-white {
+  color: white;
+}
+.about-us-wrapper {
+  margin-bottom: 62px;
+}
+.bg-ornament {
+  position: absolute;
+  bottom: -62px;
+  right: -203px;
+  min-width: 458px;
+  height: 408px;
+  object-fit: contain;
+  padding: 0;
+}
+
+.container {
+  max-width: 100% !important;
+}
+.about-us {
+  background-color: #1c2225;
+  width: 100%;
+}
+
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-text-img {
+  margin-bottom: 50px;
+}
+
+.font-lg {
+  font-size: 1.5em;
+}
+
+.main-image {
+  height: 499px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+@media screen and (max-width: 374px) {
+  .main-image {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .main-image {
+    max-width: 335px;
+  }
+}
+/* fix 
+.footer-ornament {
+  width: 100% !important;
+}*/
+
+@media screen and (min-width: 768px) {
+  .mb-text-img {
+    margin-bottom: 40px;
+  }
+
+  .main-image {
+    max-width: 704px;
+    height: 545px;
+  }
+
+  .about-us-wrapper {
+    margin-bottom: 50px;
+  }
+  .bg-ornament {
+    position: absolute;
+    bottom: -50px;
+    right: -176px;
+    min-width: 545px;
+    height: 484px;
+    object-fit: contain;
+    padding: 0;
+  }
+
+  .section-about-us-title {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+
+  .section-about-us-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 1080px;
+    margin-bottom: 80px; /* media */
+  }
+
+  .main-image {
+    max-width: 594px;
+    height: 545px;
+  }
+
+  .bg-ornament {
+    position: absolute;
+    bottom: -80px;
+    right: -260px;
+    min-width: 544px;
+    height: 483px;
+    object-fit: contain;
+  }
+}

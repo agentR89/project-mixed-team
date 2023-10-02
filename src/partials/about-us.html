@@ -1,17 +1,52 @@
-<!-- About us - Юрій -->
-<section class="about-us">
-  <div class="container">
-    <h2 class="section-about-us-title">About Us</h2>
-    <ul class="section-about-us-list list">
-      <li class="section-about-us-item">
-      <p class="section-about-us-text">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional needlework and modern design.</p>
-      </li>
-      <li class="section-about-us-item">
-        <p class="section-about-us-text">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
-      </li>
-    </ul>
-      <img src="./img/about-us/girlandboy.jpg" alt="photo vyshyvanka" width="335" height="499" />
-    
+<section class="about-us" id="about-us">
+  <div class="about-us-wrapper">
+    <div class="container">
+      <h2 class="section-about-us-title font-lg mb-40 text-white">About Us</h2>
+      <div class="section-about-us-list list mb-text-img">
+        <p class="section-about-us-text mb-20">
+          The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+          vyshyvanka comes to life with new zest and style. Our store offers a
+          wide selection of high-quality and authentic embroidery, which
+          combines the elegance of traditional needlework and modern design.
+        </p>
+        <p class="section-about-us-text">
+          In "Vyshyvanka Vibes" you will find various models of embroidery, from
+          classic to modern, corresponding to the latest fashion trends. Our
+          embroidery is made using natural fabrics and is embroidered by highly
+          qualified craftsmen who convey the beauty of Ukrainian culture in
+          every detail.We believe that vyshyvanka is not just clothing, but a
+          symbol of national pride, the heritage of our ancestors and a way of
+          expressing one's individuality. Each embroidery from "Vyshyvanka
+          Vibes" has its own unique history and symbolism, which gives it a
+          special meaning.
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <!-- 375 x ... -->
+      <div class="image-wrapper">
+        <!-- 375 x (499 + 62) -->
+        <img
+          srcset="
+            ./img/about-us/deskgirlandboy.jpg     594w,
+            ./img/about-us/deskgirlandboy@2x.jpg 1188w,
+            ./img/about-us/tabgirlandboy.jpg      704w,
+            ./img/about-us/tabgirlandboy@2x.jpg  1408w,
+            ./img/about-us/girlandboy.jpg         335w,
+            ./img/about-us/girlandboy@2x.jpg      670w
+          "
+          sizes="(min-width: 1280px) 594px, (min-width: 768px) 704px, (min-width: 375px) 335px"
+          alt="photo vyshyvanka"
+          class="main-image"
+        />
+        <!-- 335 x 499 -->
+
+        <img
+          srcset="./img/about-us/g8.png 1x, ./img/about-us/g8@2x.png 2x"
+          alt="background image ornament"
+          class="bg-ornament"
+        />
+      </div>
+    </div>
   </div>
 </section>
-

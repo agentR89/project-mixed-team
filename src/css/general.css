@@ -14,14 +14,12 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  width: 100%;
+
 }
 
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 375px; 
+
   }
 }
 
