@@ -88,16 +88,12 @@
     max-width: 335px;
   }
 }
-
 /* fix 
 .footer-ornament {
   width: 100% !important;
 }*/
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 0 32px !important;
-  }
   .mb-text-img {
     margin-bottom: 40px;
   }
