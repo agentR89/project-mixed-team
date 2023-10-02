@@ -1,13 +1,13 @@
-:root{
---black: #1C2225;
---yellow: #ECD979;
---white: #FCF9F9;
+:root {
+  --black: #1c2225;
+  --yellow: #ecd979;
+  --white: #fcf9f9;
 }
 
-body{
-    font-family: 'Manrope', sans-serif;
-    background: var(--black);
-  }
+body {
+  font-family: 'Manrope', sans-serif;
+  background: var(--black);
+}
 
 .container {
   max-width: 320px;
@@ -15,13 +15,15 @@ body{
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 @media screen and (min-width: 320px) {
-    .container {
-      max-width: 375px;
-    }
+  .container {
+    max-width: 375px; 
   }
+}
 
 @media screen and (min-width: 768px) {
   .container {
