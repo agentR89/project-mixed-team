@@ -43,7 +43,8 @@
 }
 @media screen and (min-whidth: 320px) {
   .footer-p {
-    max-width: 335px;
+    width: 335px;
+    margin-bottom: 80px;
   }
   .footer-ul {
   }
