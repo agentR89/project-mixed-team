@@ -27,12 +27,7 @@ screen and (min-device-pixel-raito: 2) {
     margin-bottom: 40px;
 }
 
-@media screen and (min-width:768px) {
-    .our-collection-title {
-        font-size: 44px;
-        line-height: 1.5;
-    }
-}
+
 
 .our-collection-paragraph {
     display: flex;
