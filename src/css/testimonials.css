@@ -18,12 +18,20 @@ margin-top: 0;
 }
  
 .testimonials-list {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   row-gap: 20px;
   
+=======
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: flex-start;
+gap: 20px;
+>>>>>>> 97e8e1a5d4284ea34309d8f251d874f1b6783d42
 }
 
 .testimonials-li {
