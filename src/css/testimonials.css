@@ -83,8 +83,6 @@ text-align: center;
 
 /*===========MEDIA=================*/
 
-
-
 @media screen and (min-width: 768px) {
 
   .testimonials-part {
@@ -111,8 +109,6 @@ text-align: center;
   display: list-item;
 }
 
-
-
    .testimonials-p{
     font-size: 16px;
    }
@@ -133,5 +129,4 @@ text-align: center;
 .three {
   display: list-item;
 }
-
 }
