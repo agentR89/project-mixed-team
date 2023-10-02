@@ -146,14 +146,19 @@
 }
 
 .container {
-    max-width: 375px;
+    max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+    
+}
 
 @media screen and (min-width: 768px) {
     .container {
