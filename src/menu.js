@@ -8,6 +8,6 @@
     refs.openMenuBtn.addEventListener('click', toggleMenu);
   
     function toggleMenu() {
-      refs.modal.classList.toggle('is-open');
+      refs.modal.classList.toggle('is-hidden');
     }
   })();
