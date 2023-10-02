@@ -26,12 +26,7 @@
     margin-bottom: 40px;
 }
 
-@media screen and (min-width:768px) {
-    .our-collection-title {
-        font-size: 44px;
-        line-height: 1.5;
-    }
-}
+
 
 .our-collection-paragraph {
     display: flex;
@@ -146,26 +141,11 @@
     }
 }
 
-.container {
-    max-width: 375px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+.our-collection-elements {
+    width: 199px;
+    height: 177px;
+    background-position: absolute;
+    background-position: -127px;
+    background-position: 2417px;
 }
 
-
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
