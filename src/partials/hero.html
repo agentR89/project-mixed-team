@@ -1,15 +1,41 @@
-    <main>
-            <section class="section-hero">
-                <div class="container">
-                    <img src="../img/hero/girl.jpg" 
-                         alt="girl"
-                         width="392"
-                         height="545"
-                         />
-                    <h1 class="titlel">Reviving the traditional<span class="titlell"> Ukrainian</span> in every stitch.</h1>
-                    <p class="hero-text">all embroidery is made by hand</p>
-                    <button type="button">Order</button>  
-                </div>
-            </section>
-        </main>
-    
+    <section class="section-hero">
+     <div class="container">
+       <div class="hero-title-girl-block">   
+          <div class="hero-title-block">
+            <h1 class="hero-title">Reviving the traditional<span class="part-hero-title"> Ukrainian</span> artistry in every stitch.</h1>
+                <a href="#customer-order"><button class="hero-button" type="button">
+                Order
+                <svg class="hero-button-icon" width="28" height="22" aria-label="button icon">
+                    <use href="./img/hero/icons/icons.svg#icon-arrow"></use>
+                </svg>
+                </button></a>
+          </div>
+          <div class="hero-girl-block">       
+            <img class="hero-image-girl"
+             srcset="../img/hero/girl.jpg 392w, ../img/hero/girl@2x.jpg 784w, ../img/hero/girl-tablet.jpg 413w, ../img/hero/girl-tablet@2x.jpg 826w, ../img/hero/girl-mobile.jpg 355w, ../img/hero/girl-mobile@2x.jpg 670w"
+             sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 355px"
+             src="./img/hero/girl.jpg" 
+             alt="girl"
+             width="392"
+             height="545"
+            />
+          </div>
+       </div>
+        <div class="hand-made-block">
+            <div class="star-block">
+                <svg class="star-block-icon" width="52" height=51 aria-label="star">
+                    <use href="./img/hero/icons/icons.svg#icon-star"></use>
+                </svg>
+                <p class="hero-text">all embroidery is made by hand</p>
+            </div>
+                <img class="hero-image-shirt"
+                     srcset="../img/hero/shirt.png 139w, ../img/hero/shirt@2x.png 278w"
+                     sizes="(min-width: 1280px) 139px, (min-width: 768px) 139px"
+                     src="../img/hero/shirt.png" 
+                     alt="shirt" 
+                     width="139"
+                     height="171"
+                     />  
+        </div>
+      </div>  
+    </section>  
